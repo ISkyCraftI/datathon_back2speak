@@ -1,0 +1,9 @@
+# Dépendances Python
+pip install praatio soundfile numpy
+
+# MFA via conda (recommandé)
+conda install -c conda-forge montreal-forced-aligner
+
+# Télécharger les modèles (anglais par défaut)
+mfa model download acoustic english_us_arpa
+mfa model download dictionary english_us_arpa
